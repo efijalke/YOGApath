@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Yoga path</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <h1 class="font-weight-light title col">
+        <a href="#">
+          <strong>yoga</strong>
+          <small>path</small>
+        </a>
+      </h1>
+
+      <!-- <ul class="nav justify-content-end align-items-center col">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tooltip" title="Jak zacząć" href="#">about</a>
+        </li>
+      </ul> -->
+
+    </div>
+  </header>
+
+  <!--  tutaj collapse-->
+  <section class="container">
+
+    <div class="card text-center mt-4">
+      <div class="row">
+
+        <div class="col d-flex justify-content-center align-items-center">
+          <div id="description-level" class="rounded-circle rounded pt-5">
+            <p class="mb-0 font-weight-light">Najpierw</p>
+            <h4 class="font-weight-bold font-italic">wybierz</h4>
+            <p class="mb-0 font-weight-light">
+              swój poziom.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3 arrow font-weight-light ">
+          <p>>></p>
+        </div>
+
+        <div class="col d-flex justify-content-center align-items-center">
+          <div class="card-header card-level rounded rounded-circle align-self-center d-flex justify-content-center align-items-center"
+            src="..." alt="..." id="headingOne">
+
+            <h5 class="mb-0 align-self-center">
+              <button class="btn btn-link btn-step-one collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                #level
+              </button>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="collapseOne" class="row collapse" aria-labelledby="headingOne">
+
+          <div class="card-body pb-0">
+            <div class="row">
+
+              <div class="col-12 col-md-4 pt-md-3 pb-md-3">
+                <a href="#" class="btn btn-primary btn-small btn-2m stop-2m rounded-circle" data-time="120" data-toggle="collapse" data-target="#collapseOne">
+                  <h5 class="card-title card-text">2</h5>
+                  minuty
+                </a>
+              </div>
+
+              <div class="col-12 col-md-4 pt-3 pb-3">
+                <a href="#" class="btn btn-primary btn-small btn-4m stop-4m rounded-circle" data-time="240" data-toggle="collapse" data-target="#collapseOne">
+                  <h5 class="card-title card-text">4</h5>
+                  minuty</a>
+              </div>
+
+              <div class="col-12 col-md-4 pt-md-3 pb-md-3">
+                <a href="#" class="btn btn-primary btn-small btn-6m stop-6m rounded-circle" data-time="480" data-toggle="collapse" data-target="#collapseOne">
+                  <h5 class="card-title card-text">8</h5>
+                  minut</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="card text-center mt-4 mb-4">
+
+      <div class="row">
+
+        <div class="col d-flex justify-content-center align-items-center btn-asans-show">
+          <div class="card-header card-level rounded rounded-circle align-self-center d-flex justify-content-center align-items-center"
+            src="..." alt="..." id="headingTwo">
+            <h5 class="mb-0 align-self-center">
+              <button class="btn btn-link btn-step-two collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                #asans
+              </button>
+            </h5>
+          </div>
+        </div>
+
+        <div class="col-3 arrow font-weight-light">
+          <p>
+            <<</p>
+        </div>
+
+        <div class="col d-flex justify-content-center align-items-center">
+          <div id="description-asans" class="rounded-circle rounded pt-5">
+            <p class="mb-0 font-weight-light">Teraz</p>
+            <h4 class="font-weight-bold font-italic">wybierz</h4>
+            <p class="mb-0 font-weight-light">
+              rodzaj asany.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div id="collapseTwo" class="row collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+
+          <div class="card-body pb-0 card-body-asans">
+            <div class="row">
+
+              <div class="col-12 col-md-3 pt-md-3 pb-md-3 d-flex justify-content-center align-items-center stojace">
+                <a href="#" class="btn btn-primary btn-asany btn-small btn-stojace rounded-circle d-flex justify-content-center align-items-center"
+                  data-toggle="collapse" data-target="#collapseTwo" data-host="stojace">
+                  <h5 class="card-title card-text">Stojące
+                    <p>Losuję!</p>
+                  </h5>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-3 d-flex justify-content-center align-items-center pt-3 pb-3 skrety">
+                <a href="#" class="btn btn-primary btn-asany btn-small btn-skrety rounded-circle d-flex justify-content-center align-items-center"
+                  data-toggle="collapse" data-target="#collapseTwo" data-host="skrety">
+                  <h5 class="card-title card-text">Skręty
+                    <p>Losuję!</p>
+                  </h5>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-3 pt-md-3 d-flex justify-content-center align-items-center pb-3 wygiecia">
+                <a href="#" class="btn btn-primary btn-asany btn-small btn-wygiecia rounded-circle d-flex justify-content-center align-items-center"
+                  data-toggle="collapse" data-target="#collapseTwo" data-host="wygiecia">
+                  <h5 class="card-title card-text">Wygięcia
+                    <p>Losuję!</p>
+                  </h5>
+                </a>
+              </div>
+
+              <div class="col-12 col-md-3 pt-md-3 pb-md-3 d-flex justify-content-center align-items-center odwrocone">
+                <a href="#" class=" btn btn-primary btn-asany btn-small btn-odwrocone rounded-circle d-flex justify-content-center align-items-center"
+                  data-toggle="collapse" data-target="#collapseTwo" data-host="odwrocone">
+                  <h5 class="card-title card-text">Odwrócone
+                    <p>Losuję!</p>
+                  </h5>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container text-center">
+      <div class="asany"></div>
+      <div class="btn-repeat d-flex justify-content-center align-items-center"></div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row pb-3">
+
+        <!-- <div class="col d-flex justify-content-center align-items-center">
+          <div id="description-timer" class="rounded-circle rounded pt-5">
+            
+            <h4 class="font-weight-bold font-italic pt-5">NAMASTE!</h4>
+    
+          </div>
+        </div>
+
+        <div class="col-3 arrow font-weight-light ">
+          <p>>></p>
+        </div> -->
+
+        <div class="col d-flex justify-content-center align-items-center">
+          <div class="card-header card-level rounded rounded-circle align-self-center justify-content-center align-items-center mx-auto"
+            src="..." alt="..." id="headingThree">
+            <h5 class="mb-0 align-self-center pt-5">
+              <button class="btn btn-link btn-step-three collapsed pt-4" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                #timer
+              </button>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="container text-center rounded rounded-circle justify-content-center align-items-center mb-4 timer" id="timer">
+      <div class="row">
+        <div class="col">
+          <h2>
+            <time></time>
+          </h2>
+        </div>
+        <div class="col">
+          <button id="start">
+            <i class="far fa-play-circle"></i>
+          </button>
+          <button id="stop">
+            <i class="far fa-stop-circle"></i>
+          </button>
+          <button id="clear">
+            <i class="fas fa-undo"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <footer class="container-fluid text-center">
+    <div class="row ">
+      <div class="col font-weight-light ">
+        <p class="mt-3 mb-3">&copy; Emilia Fijalkowska 2018 YOGApath
+          <a href="#">Pierwszy samodzielny projekt.</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="http://localhost:35729/livereload.js"></script>
+  <script src="js/out.js"></script>
+</body>
+
+</html>

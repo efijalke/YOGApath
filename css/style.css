@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+button {
+  font-size: 30px; }
+
+header,
+footer {
+  background-color: black; }
+  header h1 a,
+  footer h1 a {
+    color: white; }
+    header h1 a:hover,
+    footer h1 a:hover {
+      color: #8b8be9;
+      text-decoration: none; }
+  header .nav-link,
+  footer .nav-link {
+    color: #b1fa43; }
+    header .nav-link:hover,
+    footer .nav-link:hover {
+      color: #8b8be9; }
+  header p,
+  footer p {
+    font-size: 0.8rem;
+    color: grey; }
+    header p a,
+    footer p a {
+      color: #b1fa43; }
+      header p a:hover,
+      footer p a:hover {
+        text-decoration: none;
+        color: #8b8be9; }
+
+.rounded {
+  height: 250px;
+  width: 250px;
+  background-color: black; }
+  .rounded.timer {
+    background-color: white;
+    border: 20px solid black; }
+
+#timer {
+  display: none; }
+
+.card {
+  border: 0; }
+  .card-header {
+    border: 0; }
+
+#start,
+#stop,
+#clear {
+  background-color: white;
+  border: 0; }
+  #start:focus,
+  #stop:focus,
+  #clear:focus {
+    outline: none; }
+
+.btn {
+  color: black; }
+  .btn-main {
+    font-size: 40px; }
+  .btn-step-one {
+    color: #c90fc9;
+    font-size: 55px; }
+    .btn-step-one:focus {
+      text-decoration: none; }
+    .btn-step-one:hover {
+      color: white;
+      text-decoration: none; }
+  .btn-step-two {
+    color: #229da3;
+    font-size: 55px;
+    text-decoration: none; }
+    .btn-step-two:focus {
+      text-decoration: none; }
+    .btn-step-two:hover {
+      color: white;
+      text-decoration: none; }
+  .btn-step-three {
+    color: #ffae00;
+    font-size: 55px;
+    text-decoration: none; }
+    .btn-step-three:focus {
+      text-decoration: none; }
+    .btn-step-three:hover {
+      color: white;
+      text-decoration: none; }
+  .btn-small {
+    font-size: 25px;
+    height: 150px;
+    width: 150px; }
+  .btn-2m {
+    background-color: #b5ffe8;
+    border: none;
+    color: #ffca68; }
+    .btn-2m:hover {
+      background-color: #66fbcf;
+      color: #ec34ff; }
+  .btn-4m {
+    background-color: #fbff84;
+    border: none;
+    color: #7792ff; }
+    .btn-4m:hover {
+      background-color: #faff27;
+      color: #2ce0fd; }
+  .btn-6m {
+    background-color: #ffa7e7;
+    border: none;
+    color: #77c36f; }
+    .btn-6m:hover {
+      background-color: #fb67c5;
+      color: #bbdc1a; }
+  .btn h5 {
+    font-size: 60px; }
+  .btn-stojace p, .btn-skrety p, .btn-wygiecia p, .btn-odwrocone p {
+    font-size: 20px; }
+  .btn-stojace h5, .btn-skrety h5, .btn-wygiecia h5, .btn-odwrocone h5 {
+    font-size: 25px; }
+  .btn-stojace {
+    background-color: #fdc479;
+    border: none;
+    color: #a890ff; }
+    .btn-stojace:hover {
+      background-color: #ff9e21;
+      color: #80ecf9; }
+  .btn-skrety {
+    background-color: #9acaec;
+    border: none;
+    color: #ff8080; }
+    .btn-skrety:hover {
+      background-color: #71b0e0;
+      color: #a2ff93; }
+  .btn-wygiecia {
+    background-color: #ddff7b;
+    border: none;
+    color: #86d6ff; }
+    .btn-wygiecia:hover {
+      background-color: #cbe831;
+      color: #ff57ef; }
+  .btn-odwrocone {
+    background-color: #8c8dec;
+    border: none;
+    color: #d8bfd8; }
+    .btn-odwrocone:hover {
+      background-color: #7476e2;
+      color: #78fbff; }
+
+h2 {
+  color: #ffae00;
+  font-size: 50px; }
+
+h3 {
+  font-size: 2.75rem; }
+
+#clockdiv {
+  font-size: 60px; }
+
+img {
+  width: 100%; }
+
+#description-level {
+  width: 250px;
+  height: 250px;
+  background-color: #ff9df2;
+  color: #c90fc9; }
+  #description-level h4 {
+    font-size: 3rem; }
+  #description-level p {
+    font-size: 1.5rem; }
+
+#description-asans {
+  width: 250px;
+  height: 250px;
+  background-color: #90efde;
+  color: #229da3; }
+  #description-asans h4 {
+    font-size: 2.5rem; }
+  #description-asans p {
+    font-size: 1.5rem; }
+
+#description-timer {
+  width: 250px;
+  height: 250px;
+  background-color: #ffdf93;
+  color: #ffae00; }
+  #description-timer h4 {
+    font-size: 2.5rem; }
+
+.arrow p {
+  font-size: 8rem; }
